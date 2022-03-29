@@ -191,7 +191,7 @@ public class Flow {
         if (start != null)
             this.start = start;
         if (stop != null)
-            this.stop = start;
+            this.stop = stop;
         DepositException t = null;
         try {
             if (initFlow()) {
